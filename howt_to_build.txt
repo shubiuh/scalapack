@@ -1,0 +1,5 @@
+On ECOMS, load `module laod intel-oneapi/2023.1.0`
+
+then modify SLmake.inc if necessary (user can change to other mpi Fortran and C compilers)
+
+Atlast, run `make lib` to build `libscalapack.a` library.
